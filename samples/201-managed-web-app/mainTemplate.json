@@ -59,7 +59,7 @@
     },
     "variables": {
         "artifacts": {
-            "logAnalytics": "[uri(deployment().properties.templateLink.uri, 'nestedtemplates/oms.json')]",
+           
             "compute": "[uri(deployment().properties.templateLink.uri, 'nestedtemplates/managedVm.json')]",
             "scripts": "[uri(deployment().properties.templateLink.uri, 'scripts/ManagedWebApplication.ps1.zip')]"
         },
