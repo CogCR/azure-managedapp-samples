@@ -69,9 +69,9 @@
             "scriptType": "DSC"
         },
         "osTypeWindows": {
-            "imageOffer": "WindowsServer",
-            "imageSku": "2016-Datacenter",
-            "imagePublisher": "MicrosoftWindowsServer"
+            "imageOffer": "secured-cogdam-on-ubuntu-14-04-lts",
+            "imageSku": "new-secured-cogdam-on-ubuntu-14-04-lts-basic-lic",
+            "imagePublisher": "cognosys"
         }
     },
     "resources": [
